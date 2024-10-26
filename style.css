@@ -1,0 +1,143 @@
+body{
+  background-image: url("https://wallpaperaccess.com/full/363664.jpg");
+  background-size : cover;
+  
+}
+
+
+
+.container{
+  position: absolute;
+  left: 45%;
+  top: 35%;
+  transform: translate(50 -50);
+  width: 20em;
+  background-color: #2d2938;
+  background: rgba(45, 21, 56, 0.75);
+  color: white;
+  border-radius: 20px;
+  box-shadow: 4px 5px rgba(59, 196, 193, 0.5);
+  
+}
+
+
+img{
+  margin-top: 2em;
+  margin-left: 7.8em;
+  border-radius: 70px;
+  width: 60px;
+  
+}
+
+input{
+  display: block;
+  margin: 2em;
+  text-align: center;
+  width: 15em;
+  margin-left: 4.2em;
+  padding: 0.5em;
+  background: rgba(45, 21, 56, 0.5);
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  color: #cca47c;
+   box-shadow: 2px 2px rgba(59, 196, 193, 0.5);
+  font-family: "Leckerli One";
+  font-weight: bolder;
+}
+
+
+.box{
+  display: none;
+}
+
+.text{
+  text-align: center;
+  font-family: "Leckerli One";
+  letter-spacing: 0.2px;
+  text-shadow: 0 0 10px #D5D8DC  , 0 0 20px #D5D8DC  , 0 0 30px #D5D8DC  , 0 0 40px #D5D8DC ;
+  color: #273746;
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+.yes{
+  margin-top: 0.5em;
+  margin: 1em;
+ text-align: center;
+  width: 16em;
+  margin-left: 4.2em;
+  padding: 0.5em;
+  background: rgba(45, 21, 56, 0.5);
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  color: #cca47c;
+   box-shadow: 2px 2px rgba(59, 196, 193, 0.5);
+  font-family: "Leckerli One";
+  font-weight: bolder;
+}
+
+.yes:hover{
+  transform: translateY(-5px);
+   background: rgba(184,57,94, 0.5);
+   box-shadow: 2px 2px rgba(218,136,136, 0.5);
+}
+
+.no{
+  margin-top: 0.5em;
+  margin: 1em;
+ text-align: center;
+  width: 16em;
+  margin-left: 4.2em;
+  padding: 0.5em;
+  background: rgba(45, 21, 56, 0.5);
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  color: #cca47c;
+   box-shadow: 2px 2px rgba(59, 196, 193, 0.5);
+  font-family: "Leckerli One";
+  font-weight: bolder;
+}
+
+
+.no:hover{
+  position: absolute;
+  top: 0rem;
+  left: 30rem;
+  transform: translate(50, -50);
+  
+}
+
+
+
+.btn{
+  margin: 1em;
+ text-align: center;
+  width: 16em;
+  margin-left: 4.2em;
+  padding: 0.5em;
+  background: rgba(45, 21, 56, 0.5);
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  color: #cca47c;
+   box-shadow: 2px 2px rgba(59, 196, 193, 0.5);
+  font-family: "Leckerli One";
+  font-weight: bolder;
+}
+
+.btn:hover{
+  transform: translateY(-5px);
+}
+
+.txt{
+  text-align: center;
+  font-family: "Leckerli One";
+  letter-spacing: 0.2px;
+  text-shadow: 0 0 10px #D5D8DC  , 0 0 20px #D5D8DC  , 0 0 30px #D5D8DC  , 0 0 40px #D5D8DC ;
+  color: #273746;
+  font-weight: bolder;
+  font-size: 20px;
+}
